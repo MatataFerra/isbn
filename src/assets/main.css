@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded transition-colors duration-300;
+}
+
+.button-blue:hover {
+  @apply bg-blue-700;
+}
+
+.button-red {
+  @apply bg-red-500 text-white font-bold py-2 px-4 rounded transition-colors duration-300;
+}
+
+.button-red:hover {
+  @apply bg-red-700;
+}
+
+.button-green {
+  @apply bg-green-500 text-white font-bold py-2 px-4 rounded transition-colors duration-300;
+}
+
+.button-green:hover {
+  @apply bg-green-700;
+}
+
+.button-indigo {
+  @apply bg-indigo-500 text-white font-bold py-2 px-4 rounded transition-colors duration-300;
+}
+
+.button-indigo:hover {
+  @apply bg-indigo-700;
+}
+
+.button-pink {
+  @apply bg-pink-500 text-white font-bold py-2 px-4 rounded transition-colors duration-300;
+}
+
+.button-pink:hover {
+  @apply bg-pink-700;
+}
+
+.button-glow {
+  @apply bg-transparent border border-green-700 text-gray-950 font-bold py-2 px-4 rounded transition-colors duration-300;
+}
+
+.button-glow:hover {
+  @apply bg-green-700 text-white;
+}
+
+body {
+  @apply bg-slate-200 text-gray-900 leading-normal font-sans;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 9999999999999999s ease-in-out 0s;
+}
